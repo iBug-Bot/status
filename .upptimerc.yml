@@ -1,31 +1,50 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: iBug-Bot # Your GitHub organization or username, where this repository lives
+repo: status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Home Page
+    url: https://ibug.io/
+  - name: Notes
+    url: https://notes.ibug.io/
+  - name: GitHub Webhook Receiver
+    url: https://api.ibugone.com/gh/_status
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+      - "X-GitHub-Event: ping"
+      - "X-Hub-Signature: sha1=b348960cb1839df901b4d290d4bb1dc11d65f2aa"
+    body: '{"ping":true}'
+    maxResponseTime: 5000
+  - name: Public Files
+    url: https://b2.ibugone.com/
+  - name: Local Files
+    url: https://ustc-files.ibugone.com/
+  - name: TaoKY Strong
+    url: https://taokystrong.com/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.ibugone.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  logoUrl: https://ibug.io/assets/favicon.png
+  name: iBug Status
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: iBug's status page
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    # title: GitHub
+    # href: https://github.com/$OWNER/$REPO
+  css: |
+    body { font-family: Amazon Ember, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; }
+  links:
+    - rel: stylesheet
+      href: https://cdn.jsdelivr.net/npm/amazon-fonts@1.0.1/fonts/stylesheet.min.css
+  robotsText: |
+    User-agent: *
+    Disallow: /
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
