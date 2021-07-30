@@ -77,11 +77,11 @@
     "icon": "https://favicons.githubusercontent.com/ustc-files.ibugone.com",
     "slug": "local-files",
     "status": "up",
-    "uptime": "99.56%",
+    "uptime": "99.57%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.74%",
     "uptimeMonth": "99.85%",
-    "uptimeYear": "99.56%",
+    "uptimeYear": "99.57%",
     "time": 2866,
     "timeDay": 2247,
     "timeWeek": 2756,
@@ -101,9 +101,9 @@
     "url": "https://taokystrong.com/",
     "icon": "https://favicons.githubusercontent.com/taokystrong.com",
     "slug": "tao-ky-strong",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -112,6 +112,8 @@
     "timeWeek": 1315,
     "timeMonth": 1507,
     "timeYear": 1631,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-07-30": 0
+    }
   }
 ]
