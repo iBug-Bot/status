@@ -58,9 +58,9 @@
     "url": "https://b2.ibugone.com/",
     "icon": "https://favicons.githubusercontent.com/b2.ibugone.com",
     "slug": "public-files",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.91%",
@@ -70,6 +70,7 @@
     "timeMonth": 391,
     "timeYear": 392,
     "dailyMinutesDown": {
+      "2021-12-11": 0,
       "2021-09-10": 240
     }
   },
@@ -131,11 +132,11 @@
     "icon": "https://favicons.githubusercontent.com/taokystrong.com",
     "slug": "tao-ky-strong",
     "status": "up",
-    "uptime": "96.96%",
+    "uptime": "96.97%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "95.87%",
-    "uptimeYear": "96.96%",
+    "uptimeYear": "96.97%",
     "time": 1478,
     "timeDay": 959,
     "timeWeek": 1257,
