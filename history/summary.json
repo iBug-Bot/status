@@ -40,9 +40,9 @@
     "url": "https://api.ibugone.com/gh/_status",
     "icon": "https://favicons.githubusercontent.com/api.ibugone.com",
     "slug": "git-hub-webhook-receiver",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 1039,
     "timeMonth": 973,
     "timeYear": 897,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-02-15": 0
+    }
   },
   {
     "name": "Public Files",
@@ -134,18 +136,18 @@
     "icon": "https://favicons.githubusercontent.com/taokystrong.com",
     "slug": "tao-ky-strong",
     "status": "down",
-    "uptime": "80.58%",
+    "uptime": "80.29%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "80.58%",
+    "uptimeYear": "80.29%",
     "time": 1674,
     "timeDay": 1043,
     "timeWeek": 1168,
     "timeMonth": 2372,
     "timeYear": 1674,
     "dailyMinutesDown": {
-      "2022-02-15": 63,
+      "2022-02-15": 1342,
       "2022-02-14": 1440,
       "2022-02-13": 1440,
       "2022-02-12": 1440,
